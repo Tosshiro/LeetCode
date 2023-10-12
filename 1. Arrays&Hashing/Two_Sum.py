@@ -1,6 +1,6 @@
 '''
 Description
-LeetCode solution to 1.Arrays&Hashing
+LeetCode solution to 1.1. Arrays&Hashing
 '''
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
