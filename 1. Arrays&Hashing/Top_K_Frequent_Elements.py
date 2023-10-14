@@ -1,6 +1,6 @@
 '''
 Description
-LeetCode solution to 347. Top_K_Frequent_Elements
+LeetCode solution to 347. Top K Frequent Elements
 '''
 
 class Solution:
@@ -21,3 +21,6 @@ class Solution:
                 break
             k -= 1
         return most_freq
+
+    #Time Complexity: O(n)
+    #Memory Complexity: O(n)
