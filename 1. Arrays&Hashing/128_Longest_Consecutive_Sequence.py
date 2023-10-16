@@ -1,6 +1,8 @@
 '''
 Description
 LeetCode solution to 128. Longest Consecutive Sequence
+
+@author: Jw
 '''
 
 class Solution:

@@ -1,6 +1,8 @@
 '''
 Description
 LeetCode solution to 242. Valid Anagram
+
+@author: Jw
 '''
 
 

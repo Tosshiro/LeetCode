@@ -1,6 +1,8 @@
 '''
 Description
 LeetCode solution to 1. Two Sum
+
+@author: Jw
 '''
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
