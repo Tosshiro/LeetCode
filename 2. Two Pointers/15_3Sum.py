@@ -40,4 +40,4 @@ class Solution:
 
 # Time complexity: O(nlog(n)) + O(n^2)  -->  O(n^2)
 # O(nlog(n)) from sorted function
-# Memory Complexity: O(n)
+# Memory Complexity: O(1)
