@@ -2,7 +2,6 @@
 Description
 LeetCode solution to 844. Backspace String Compare
 
-Good question to get started with stack and oop
 
 @author: Jw
 '''
