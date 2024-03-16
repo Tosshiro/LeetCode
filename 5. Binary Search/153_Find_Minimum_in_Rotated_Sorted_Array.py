@@ -8,23 +8,23 @@ LeetCode solution to 153. Find Minimum in Rotated Sorted Array
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         res = nums[0]
-        low, high = 0, len(nums) - 1
+        l, r = 0, len(nums) - 1
 
-        while low <= high:
+        while l <= r:
             # Base case
-            if nums[low] < nums[high]:
-                res = min(res,nums[low])
+            if nums[l] < nums[r]:
+                res = min(res,nums[l])
                 break
 
             # Binary search
-            mid = (low + high) // 2
+            mid = (l + r) // 2
             res = min(res, nums[mid])
 
-            if nums[mid] >= nums[low]:
+            if nums[mid] >= nums[l]:
                 # Middle part is part of left portion, search right portion as it contains smaller values
-                low = mid + 1
+                l = mid + 1
             else:
                 # Middle part is part of right portion, search left as it contains smaller values
-                high = mid - 1
+                r = mid - 1
 
         return res
